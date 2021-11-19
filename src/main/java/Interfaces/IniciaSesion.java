@@ -40,7 +40,12 @@ public class IniciaSesion extends javax.swing.JFrame {
         setForeground(new java.awt.Color(0, 204, 0));
 
         acceder.setForeground(new java.awt.Color(0, 102, 0));
-        acceder.setText("ACCEDER");
+        acceder.setText("INICIAR SESION");
+        acceder.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                accederActionPerformed(evt);
+            }
+        });
 
         salir.setForeground(new java.awt.Color(153, 0, 0));
         salir.setText("SALIR");
@@ -154,6 +159,10 @@ public class IniciaSesion extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void accederActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_accederActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_accederActionPerformed
 
     /**
      * @param args the command line arguments
