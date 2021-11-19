@@ -48,7 +48,7 @@ public class IniciaSesion extends javax.swing.JFrame {
         });
 
         salir.setForeground(new java.awt.Color(153, 0, 0));
-        salir.setText("POR FIN CREO QUE SALIO");
+        salir.setText("SALIR");
 
         iconoUsuario.setBackground(new java.awt.Color(102, 102, 255));
 
